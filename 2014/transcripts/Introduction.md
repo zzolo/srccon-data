@@ -75,7 +75,7 @@ Just because there are, you know, various kinds of situations where in a session
 >> This is Stan.
 [ Laughter ]
 >> Hi, I'm Ryan Murphy from Austin, Texas.  And corgis, bears, and web standards.
->> I'm Eric, I'm from Texas.  Photo-journalism, coding, and barbecue.
+>> I'm Erik Reyna, I'm from Texas.  Photo-journalism, coding, and barbecue.
 >> I'm Mandy, I'm from Brooklyn.  Books, booze, and pitbulls.
 >> I'm Gary Victor (phonetic), D.C.  Weird, build stuff, favorites.
 >> I'm Ed.  I'm from Jersey City.  Design, dot-connecting, and --
