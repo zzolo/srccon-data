@@ -64,7 +64,7 @@ Just because there are, you know, various kinds of situations where in a session
 >> I'm Rob Meyer, also from D.C.  Words, trees, and emoji.
 >> Hi, I'm Allister, I'm from New York and mobile, web, and Indian food.
 >> I'm Tyler from D.C.  Story, telling, open-source.
->> I'm Jeff from Brooklyn.  I'm going on a term offensive.
+>> I'm Jeff from Brooklyn.  I'm going on a charm offensive.
 >> Hi, I'm Eric, soon to be from Brooklyn.  Let's go with functional programming, microfiction, and Halo.
 >> I'm Alex from New York.  Give, me, subway, tokens.
 >> I'm Jeremy.  I'm from New York.  I love news, transit, and linguistics.
