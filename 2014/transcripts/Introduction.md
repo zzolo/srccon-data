@@ -168,7 +168,7 @@ Just because there are, you know, various kinds of situations where in a session
 >> Hey, I'm Jeff from Philadelphia.  Nick Keen movies.
 >> Jen Low from Brooklyn via Arizona.  Data, communication, and open spaces.
 >> I'm Casey Holland from New York.  I like systems thinking, free education, and small tools.
->> Pipin Lee from Toronto, Canada.  I like teaching code with bad gifs, ey.
+>> Pipin Lee from Toronto, Canada.  I like teaching code with bad gifs, eh.
 >> Is that it?  All right.  That was 18 minutes and seven seconds.
 [ Applause ]
 I think we can do better, so let's do it again.  
