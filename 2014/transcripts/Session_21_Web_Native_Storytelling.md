@@ -6,13 +6,13 @@ whitecoatcaptioning.com
 
 7/25/14.
 Session 21 - Toward web-native storytelling!
-Session Leaders: Claire O'Neill and ___________
+Session Leaders: Claire O'Neill and Tyler Fisher
 
 
 >>Morning, everyone:  So this session was originally called "Cool data bro', but what's the story?" and that seemed kind of mean, so I changed it to web storytelling, whatever that means.  So I guess we can introduce ourselves first.  What we're thinking of doing is we'll introduce ourselves, we'll talk a little bit about our team, and we can sort of talk about a project you did, but then we thought it might be interesting to sort of talk about our design exercise, basically the exercise we do and then break into groups and do that design exercise for a story.  
 
 So who am I?  I'm Claire O'Neill, I work at NPR on our visuals team.  Yeah, so I've been at NPR for about five years, I started as an intern, at the time the only department doing internet was like, well, we had web producers basically filling out radio stories and then radio team.  But so I was there for about five years, and somewhat recently our boss at that department left and Brian Boyer was hired to start a news apps team, and so at that point, our teams merged and so now we're sort of a content team of designers, photo editors, and my role is sort of more of an editor sort of content strategy.
->> I'm Chris Groskopf.  No, [inaudible] -- I just started this month and I'm a designer developer on the team.  I also started as an intern and was hired, and I, you know, I think a lot of people assume, like because I sort of do news apps development that all I care about is data, and I just want to make charts, but I find what we do at NPR a lot more rewarding because we're telling stories with really inventive amazing visuals and trying to find the best way to tell a story, not just assume that a bar chart will do the job.  So I will be in the session to make that a more systemic thing in our field to think about what the story actually is and how it needs to be told.
+>> I'm Chris Groskopf.  No, I'm Tyler Fisher -- I just started this month and I'm a designer developer on the team.  I also started as an intern and was hired, and I, you know, I think a lot of people assume, like because I sort of do news apps development that all I care about is data, and I just want to make charts, but I find what we do at NPR a lot more rewarding because we're telling stories with really inventive amazing visuals and trying to find the best way to tell a story, not just assume that a bar chart will do the job.  So I will be in the session to make that a more systemic thing in our field to think about what the story actually is and how it needs to be told.
 >> How many people here are on similar teams like that?  Yeah, where do you work and how does your team work?
 >> I'm an intern right now at FiveThirtyEight, so a lot of our visuals are just charts and line graphs and things like that.  We usually have one larger interactive, for example, like the World Cup interactive, and the majority of stories are told using charts.
 >>
