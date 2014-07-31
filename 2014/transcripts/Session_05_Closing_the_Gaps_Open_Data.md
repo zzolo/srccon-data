@@ -21,7 +21,7 @@ But to me ...  That's where they go now.  I stopped seeing them.
      So it's been my experience at a lot of levels, not just my home,
 I've come to accept things that are terrible.  That is how you deal
 with it.  That's how you get the data.  That is what it's like to
-propose a correction to something or what it's like to install CCCam
+propose a correction to something or what it's like to install CKAN
 or the process of getting parcel level geo data for multiple countries
 or whatever.
      So the director of the U.S. Open Data Institute which is a small
@@ -31,11 +31,11 @@ or consuming it or for people outside the government trying to consume
 it.  We're trying to find those bumps and smooth them out so it
 becomes simpler to produce and consume mobile data.  So that there's a
 project that Greg and I were talking about working with the open
-knowledge foundation to make core changes to CCCam to the data
+knowledge foundation to make core changes to CKAN to the data
 repository that is awful to install.  It's gotten better but it's
 unpleasant to install.
      We're going to pay for some developers to make a website where
-you can launch a CCCam instance and fire up an easy 2 server or a
+you can launch a CKAN instance and fire up an easy 2 server or a
 cloud hosting service and boom you have your repository and let you
 host its for free for two months.  That is going to make it possible I
 hope for hundreds of municipal and state governments and agencies to
@@ -377,7 +377,7 @@ do have to do it.  And so what they produce if anything is terrible.
 Virginia dot Virginia dot Gov.  Somebody put it together on the front
 page.  It's like a list of 8 excel files.  And I'm working with them,
 I have a two-hour meeting.  I and the deputy secretary of technology
-is going to work on getting CCCam installed.  It took six months to
+is going to work on getting CKAN installed.  It took six months to
 get permission to put up a virtual server.  It would have costed 4,000
 
 
