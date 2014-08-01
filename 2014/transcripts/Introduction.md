@@ -93,7 +93,7 @@ Just because there are, you know, various kinds of situations where in a session
 >> Matthew Pleasant from Tampa, Florida.  Reporting, storytelling.
 >> I'm Dan from York, Pennsylvania.  Code design, cats, and 0-based axes.
 >> Chris Williams, currently Chicago, soon to be D.C.  I like bicycling, IPA's, and beer.
->> I'm Tom Maher.  I live in New Jersey.  I like beer, soccer, and reporting.
+>> I'm Tom Meagher.  I live in New Jersey.  I like beer, soccer, and reporting.
 >> My name is Ferguson.  Senses, impact, and cycling.
 >> Hi, I'm Jeremy.  I live in D.C.  I like the gout, beer, and I miss Python a lot.
 >> Hi, I'm Helen Ubez (phonetic) from Philly.  I'm petrified, story-telling, and dogs.
