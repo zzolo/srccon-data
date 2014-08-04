@@ -119,7 +119,7 @@ RYAN: All right, who else came with a cool dataset that you don't have to spend 
 
 Jeff?
 
-> JEFF LARSON: NASA has two satellites, Landsat 7 and Landsat 8, and if you ever need relatively quick raster data, satellite data, they picture is not super high resolution, but it's really available and it's the largest dataset we are currently working with.  Al Shaw on his work computer has 320 gigabytes of raster data.
+> JEFF LARSON: NASA has two satellites, Landsat 7 and Landsat 8, and if you ever need relatively quick raster data, satellite data, the picture is not super high resolution, but it's really available and it's the largest dataset we are currently working with.  Al Shaw on his work computer has 320 gigabytes of raster data.
 
 RYAN: When you say raster data?
 
