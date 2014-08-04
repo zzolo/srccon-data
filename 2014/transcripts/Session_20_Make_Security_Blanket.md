@@ -135,7 +135,7 @@ JEFF:  Which is also better.  More talking to each other, and hanging out, and d
 
 > So if you were investigating someone you would use Tor to investigate their website so that they wouldn't know you were investigating them?
 
-JEFF:  Exact same reason for the Bureau of Prisons, it's a good way to get around and be secrete discrete.
+JEFF:  Exact same reason for the Bureau of Prisons, it's a good way to get around and be secret, discreet.
 
 > It also, um, if you have, like, web sense or something at work but you use Tor.  Web sense doesn't know what you're looking at either, right?
 
