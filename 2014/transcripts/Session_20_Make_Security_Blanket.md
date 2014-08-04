@@ -30,7 +30,8 @@ JEFF:  OTR.  Any other ones?
 
 JEFF:  Tor.
 
-           >  Onion browser.
+>  Onion browser.
+
 JEFF:  Onion browser.  That was written by our own Mike Tigas.
 
 > And https?
@@ -39,7 +40,7 @@ JEFF:  Https, great.  This is the one that everyone uses.
 
 > Hopefully.
 
-JEFF:  Well, if you've ever logged into a bank -- how many times have people, like, when you get the yellow screen saying that this site's certificate isn't valid, you just click right through so that's the value of this thing.  So we've got Tails, Keybase, OTR, Tor.  There are -- I'm just going to throw in a couple more here that I want to talk about.  Cryptocat, and I want to talk about Mini Block.
+JEFF:  Well, if you've ever logged into a bank -- how many times have people, like, when you get the yellow screen saying that this site's certificate isn't valid, you just click right through so that's the value of this thing.  So we've got Tails, Keybase, OTR, Tor.  There are -- I'm just going to throw in a couple more here that I want to talk about.  Cryptocat, and I want to talk about MiniLock.
 
 > Would you consider the two-step authentication for Gmail or things like that?
 
