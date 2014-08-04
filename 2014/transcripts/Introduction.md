@@ -152,7 +152,7 @@ Just because there are, you know, various kinds of situations where in a session
 >> Latoya Peterson from Washington D.C.  Breaking telephone news and design.
 >> I'm Drew Mill from New York.  Politics, databases, linguistics.
 >> I'm Allen from New York.  Code, data, machine learning.
->> Brett, came in from New Jersey.  Unexpected, impatient, and Beethoven, or not from Brooklyn.
+>> Fred Kaimann, from New Jersey.  Unexpected, impatient, and Beethoven, or not from Brooklyn.
 >> Jessica from Harlem.  Travel, building, and pirate
 >> Hi, I'm Micaela Fernandez, I'm from Uruguay, but I'm living in Washington D.C.
 >> Stanford by way of Washington D.C.  What, you, said.
