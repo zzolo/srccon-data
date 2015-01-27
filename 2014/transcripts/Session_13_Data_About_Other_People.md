@@ -235,123 +235,232 @@ Session Leader Derek Willis.
 > Ooh, so actual distributed work that's valuable to lots of.  Like I like this.  We're overpromising, sure, but no, no, I like this.  Because I'm using the campaign database to build data at the city and county level so I'm going to get the licensing information, I'm going to get the other data and but those people are also going to be involved at the state level and federal level and so that might be of value if it was contributed to a larger --
 
 > Right, so that requires two things, right?  You need to track the provenance and you also need some sort of a way to actually like.
->> Get that into --
->> Well, not just that, but actually score how likely this is to be right or wrong.
->> Yeah, yeah, but I think the point is I'm much more likely to be oh, well, clearly you know this -- the assumption is you know this better than I do, that local area and you know, better than I do, so like the difference between, I suppose, a score of like confidence that some, you know, machine learning or whatever algorithm spit something out for me based on a geographic set that I don't have any particular expertise in and something like that that is further guided and/or overseen by someone who does, I think there is a -- you know, a little bit of a boost there.
->> I mean we have an advantage, too, which is you know, as we said when we first got started here, it is actually not a huge universe of people who contribute.
->> It's -- I mean it's a lot of data that I'm working with, but it's all manual at this point.  I'm literally going into my spreadsheet, I know that Charles Hamill, there's a second and a third and they all contribute and I know where they are and I know where they live and I'm going OK, this Charles Hamill and this Charles Hamill, because they're all in the news.
->> I feel like we should really have something that prevents, that makes it possible for Amy not to have to do this manually.  I think wouldn't that be kind of nice?  Yeah?
->> It sounds like you should be able to do that once, right, and put it somewhere and then have other people be able to benefit from that.
->> So I have the campaign donors from the mayoral election and now when I'm uploading the ones for city council, I can match that.
->> So that does bring us back to standards, if we're going to have something or if we're just spit bawling here, we're going to have something that is, you know, enables people to put stuff in at one level and have it be used by people at another level, then we need like, OK, this is the kind of information, you know, this is the minimum set of information, you get sort of some optional stuff to it, and then, you know, other people know if you're going to contribute to this, you have to have at least this, and maybe this extra, as well.  So I mean I think -- I think we kind of can figure out in our heads what that might be -- what that information might be, but just so that we're not, you know that we're all sort of on the same page, I mean obviously aside from the name, which ideally is parsed, what else is the minimum set of information that would go into that?
->> City, state.
->>
->> Would you want the full address, though?
->> I think you would want it ideally, but I don't know I suspect that in some cases you might not be able to get it in every single instance.  I think you would like to include it and maybe we're talking about a fully parsed address.  Ideally like street number, street number, you know, but again that's a whole another session for address parsing.  But I think in terms of the minimum, city and state, and do we care about zip codes or are they just too just weird or annoying or people misspell them or old or new ones?
->> I've done stuff like this zip codes are one of the mother reliable things, because where city and states have a lot more representational flexibility, zip code if it's 5 digits, it's probably the right 5 digits.
->> OK,.
->> Strong testimony.
->> I remember seeing a city entry that was ASDF so they don't really put too much effort into it.
->> I believe it like the horror stories of address data.  It might be the only thing that's worse than names, frankly, I think.
->> OK, so is that the basic set?  Like the minimum?
->> I could see age which may be hard to come by.
->> Age or date of birth?
->> Date of birth.
->> I agree.  I would prefer date of birth, you about it's funny that I think now voter registration data that in some places that always had date of birth, some have switched to providing age as a privacy measure.
->> So you could do if you know the date that they captured that age, you could reverse engineer that because that's what ancestry.com does, so you'll get records that says he was born about 1932, so you can have some confidence that you've got the person.
->> But in order to get that at at like the local level like you're almost, you know, at the local level, correct me if I'm wrong but probably the easiest way to get that for a larger set of people is probably voter registration, but obviously that eliminates everybody under 18 and not that we're dealing with a lot of kids anyway, in general, but it also excludes, like, in many cases like people who had been convicted of crimes but are now out of prison and you know, who could legally give money or run for office even, as unlikely as it may be.
->>
->> Although I have seen literally children, like minor children appear in the FEC dataset.  It is under certain circumstances, yes.  It has to be their own money.  I mean like our daughter has an allowance, so she has her own money, but.
->> and how much does she contribute on an annual basis?
+
+> Get that into --
+
+> Well, not just that, but actually score how likely this is to be right or wrong.
+
+> Yeah, yeah, but I think the point is I'm much more likely to be oh, well, clearly you know this -- the assumption is you know this better than I do, that local area and you know, better than I do, so like the difference between, I suppose, a score of like confidence that some, you know, machine learning or whatever algorithm spit something out for me based on a geographic set that I don't have any particular expertise in and something like that that is further guided and/or overseen by someone who does, I think there is a -- you know, a little bit of a boost there.
+
+> I mean we have an advantage, too, which is you know, as we said when we first got started here, it is actually not a huge universe of people who contribute.
+
+> It's -- I mean it's a lot of data that I'm working with, but it's all manual at this point.  I'm literally going into my spreadsheet, I know that Charles Hamill, there's a second and a third and they all contribute and I know where they are and I know where they live and I'm going OK, this Charles Hamill and this Charles Hamill, because they're all in the news.
+
+> I feel like we should really have something that prevents, that makes it possible for Amy not to have to do this manually.  I think wouldn't that be kind of nice?  Yeah?
+
+> It sounds like you should be able to do that once, right, and put it somewhere and then have other people be able to benefit from that.
+
+> So I have the campaign donors from the mayoral election and now when I'm uploading the ones for city council, I can match that.
+
+> So that does bring us back to standards, if we're going to have something or if we're just spit bawling here, we're going to have something that is, you know, enables people to put stuff in at one level and have it be used by people at another level, then we need like, OK, this is the kind of information, you know, this is the minimum set of information, you get sort of some optional stuff to it, and then, you know, other people know if you're going to contribute to this, you have to have at least this, and maybe this extra, as well.  So I mean I think -- I think we kind of can figure out in our heads what that might be -- what that information might be, but just so that we're not, you know that we're all sort of on the same page, I mean obviously aside from the name, which ideally is parsed, what else is the minimum set of information that would go into that?
+
+> City, state.
+
+> Would you want the full address, though?
+
+> I think you would want it ideally, but I don't know I suspect that in some cases you might not be able to get it in every single instance.  I think you would like to include it and maybe we're talking about a fully parsed address.  Ideally like street number, street number, you know, but again that's a whole another session for address parsing.  But I think in terms of the minimum, city and state, and do we care about zip codes or are they just too just weird or annoying or people misspell them or old or new ones?
+
+> I've done stuff like this zip codes are one of the mother reliable things, because where city and states have a lot more representational flexibility, zip code if it's 5 digits, it's probably the right 5 digits.
+
+> OK,.
+
+> Strong testimony.
+
+> I remember seeing a city entry that was ASDF so they don't really put too much effort into it.
+
+> I believe it like the horror stories of address data.  It might be the only thing that's worse than names, frankly, I think.
+
+> OK, so is that the basic set?  Like the minimum?
+
+> I could see age which may be hard to come by.
+
+> Age or date of birth?
+
+> Date of birth.
+
+> I agree.  I would prefer date of birth, you about it's funny that I think now voter registration data that in some places that always had date of birth, some have switched to providing age as a privacy measure.
+
+> So you could do if you know the date that they captured that age, you could reverse engineer that because that's what ancestry.com does, so you'll get records that says he was born about 1932, so you can have some confidence that you've got the person.
+
+> But in order to get that at at like the local level like you're almost, you know, at the local level, correct me if I'm wrong but probably the easiest way to get that for a larger set of people is probably voter registration, but obviously that eliminates everybody under 18 and not that we're dealing with a lot of kids anyway, in general, but it also excludes, like, in many cases like people who had been convicted of crimes but are now out of prison and you know, who could legally give money or run for office even, as unlikely as it may be.
+
+> Although I have seen literally children, like minor children appear in the FEC dataset.  It is under certain circumstances, yes.  It has to be their own money.  I mean like our daughter has an allowance, so she has her own money, but.
+
+> and how much does she contribute on an annual basis?
+
 [laughter]
->> Thankfully nothing yet, so I worry, though.  I do worry.  So but it is actually permissible for like if you have your own money, so and again, it's like people with trust funds essentially being able to contribute.
->> Is there a limit on how much minors can give.
->> No, they can give as much so you'll see like five people from a family and it's like OK, well, that's, you know, there's kids there and maybe some of them are adult kids, but some of them are -- you can look and no, there are some minor kids in there, so OK, so yeah, I think -- I mean I'm sort of wavering on whether it's a -- I think in some cases it could be harder to get.
->> I think it would be nice to have.
->> It's very nice to have, but I suspect that it's probably a little more optional.  We had other suggestions in terms of like employer or occupation or things like that, although I mean and I think like it's better to have than to not have, but I think there is also a, you know, from my experience of campaign finance data, what happens in a lot of cases is that if someone has been running for office for decades or for you know, 20 years, and they have had a regular donor during that period, they just use like whatever the previous donation record had on it, in a lot of cases so you'll see people currently who clearly -- like people in the news, people whose names everyone knows and it will have like you know, some previous job, or even better, it will be like unknown, it will have like Bill Gates, unknow?  Is it really unknown?  So there is a lot of variability in that sense.  But I do think like it's good to have.  It can be good to have in terms of specific domains or disambiguating particular members of a particular family.
->> Isn't it all about that one time when you can match it up with?  I mean if you're going to go off employer, that one time you can match it up with that database that you can really trust and then you know, so here's the horizontal line to that database and here's the vertical line with all the other entries under that.
->> Right, but I feel like one of the issues for us is sort of as an industry is it that most of us, and for fairly decent legitimate reasons, don't really share the data that we really trust.  You know?  And I'm not saying everybody should just turn over all your stuff but I feel like there's got to be some compromise that we can make to be able to like, hey, look, there's you know, without giving away the store, we can still have something useful that other people can work off of.  All right, so name, parsed name, maybe a parsed address, city, state, zip, and age and maybe employer, and/or occupation information.
->>
->> I'm coming at this from mostly a political data domain so there's not much else information that we get in campaign finance about individuals.
->> What about like average contribution amount because people who give a little are likely to continue giving a little, you so you can kind of see and say you know, this Derek Willis gives 40 bucks every year, but this one gives $4,000, it's probably not the same guy.
->> So some kind of categorization of some kind.
->> of broken decks.
->> Right.
+
+> Thankfully nothing yet, so I worry, though.  I do worry.  So but it is actually permissible for like if you have your own money, so and again, it's like people with trust funds essentially being able to contribute.
+
+> Is there a limit on how much minors can give.
+
+> No, they can give as much so you'll see like five people from a family and it's like OK, well, that's, you know, there's kids there and maybe some of them are adult kids, but some of them are -- you can look and no, there are some minor kids in there, so OK, so yeah, I think -- I mean I'm sort of wavering on whether it's a -- I think in some cases it could be harder to get.
+
+> I think it would be nice to have.
+
+> It's very nice to have, but I suspect that it's probably a little more optional.  We had other suggestions in terms of like employer or occupation or things like that, although I mean and I think like it's better to have than to not have, but I think there is also a, you know, from my experience of campaign finance data, what happens in a lot of cases is that if someone has been running for office for decades or for you know, 20 years, and they have had a regular donor during that period, they just use like whatever the previous donation record had on it, in a lot of cases so you'll see people currently who clearly -- like people in the news, people whose names everyone knows and it will have like you know, some previous job, or even better, it will be like unknown, it will have like Bill Gates, unknow?  Is it really unknown?  So there is a lot of variability in that sense.  But I do think like it's good to have.  It can be good to have in terms of specific domains or disambiguating particular members of a particular family.
+
+> Isn't it all about that one time when you can match it up with?  I mean if you're going to go off employer, that one time you can match it up with that database that you can really trust and then you know, so here's the horizontal line to that database and here's the vertical line with all the other entries under that.
+
+> Right, but I feel like one of the issues for us is sort of as an industry is it that most of us, and for fairly decent legitimate reasons, don't really share the data that we really trust.  You know?  And I'm not saying everybody should just turn over all your stuff but I feel like there's got to be some compromise that we can make to be able to like, hey, look, there's you know, without giving away the store, we can still have something useful that other people can work off of.  All right, so name, parsed name, maybe a parsed address, city, state, zip, and age and maybe employer, and/or occupation information.
+
+> I'm coming at this from mostly a political data domain so there's not much else information that we get in campaign finance about individuals.
+
+> What about like average contribution amount because people who give a little are likely to continue giving a little, you so you can kind of see and say you know, this Derek Willis gives 40 bucks every year, but this one gives $4,000, it's probably not the same guy.
+
+> So some kind of categorization of some kind.
+
+> of broken decks.
+> Right.
+
 [laughter]
->> Same thing with like restaurant reviews, for price of restaurants, one dollar sign, four dollar signs, something like that?  Are there any other licensing or voter registration databases that have information that is not in here that we might consider to be part of a nice to have set?
->> I'm sorry, I joined the session late, but I'm trying to think about a way of what combination of these attributes make a unique person.  Like could with a Derek Willis from the same city, same state.
->> How do we disambiguate, yeah.  Yeah.
->> What are the minimum kind of requirements?  Like place of birth, I don't know does that help spell someone's name better or like pronunciation?
->> I mean I think that there's no formal way to do that absent the data managers doing it responsibly, because everything up there can legitimately change.
->> and does.
->> and does from either sloppy data handling or life events, and so I came in late, too, so I'm not exactly sure what this is driving towards, but in general working on problems of matching people between datasets, you have to basically fill in the uncertainty and make that a thing that you always have an opportunity to check yourself before you make a mistake if the uncertainty comes into play.  You know, we're doing some things at the night lab with campaign financing and find out that one thing we do is mostly disregard even checking low number donors, because you know what they're just not important, right?  So these methods that say reduce what you are worried about being correct is a strategy.  Can you say in like two sentences where you guys are driving since I came in late.
->> We've been a little running on and off the road a little bit but a couple things, one is sort of -- we're kind of on two tracks.  One is, the tools that we have for parsing and standardizing names, how can we improve them, is there room for that for you know, do they need to be, are there obvious improvements that we could make, or you know, even just I think somebody suggested can we evaluate them in terms of so people know what tools are right and good or useful and what they offer versus like, you know, so we can properly answer the question, I have to parse name fields, what should I use.  So that's one sort of track.  The other track is how do we stop doing the same work over and over, like both individually and collectively, and can we create, or you know, imagine some sort of either service or common repository that helps us to stop, you know, doing things repetitively and perhaps mistakenly.  You know, part of one of the founding questions of the session for me was like this perennial campaign financing question which is we can never really say with any real certainty exactly how much money somebody has given because we're never really sure, and so I don't know that we can ever really perfectly solve that, but like I'd like to be able to get closer, it's just that every time that we try to answer those questions, it's usually dealing with someone who on the off chance I've ever heard of them before I'm only tangentially aware of them and now I have to become an expert of every name they've used and their employment history in like four hours right, or a day.  Or can we build on stuff that maybe all of us do and maybe extract a portion of the work that all of us do, and be able to contribute it to some sort of common thing that we can all draw upon.  And be like look, I'm not the expert in western Pennsylvania political donors, but someone else is and they've uploaded a data that sort of standardizes and identifies the data from that community.
->> So how do you verify like right now, you get the Allegheny County stuff, like every time you get political donations from Allegheny County, you go through them and do the exact same matching every time or how do you --
->> So we're kind of working through how to do this in an automated fashion.  Because it is very manual right now.  I have taken campaign finance reports and enter them into a spreadsheet that I then go through open refine.  And I go through it again OK, I know these people I'm cleaning it up that way.  We want it to just keep building on itself.  We're going to say campaign finance data was one of our foundational sets, we're always going to run names against that to see if we've already built up their profile and that's part of why I was really excited about this session which is the exact thing.
->> Unfortunately since we don't have it solved it's kind of a let-down for her, but you know, I feel like, yeah, you know, I feel like there are a bunch of -- several different ways we could go with this, right?  So all right, any more on sort of -- any other fields that -- any other types of information that people are collecting that might be useful or is this a good.
->> I think the last thing I would put in there is if you're talk talking about campaign finance would be registered party that they are registered as or if you donate to Democrats all I don't remember life.
->> I mean there's two ways to get at that, like if some states offer it, like is a registered whatever, although that can change over time, obviously and then the states that don't offer it, you could kind of divide it based on donation history, which is again, not terribly different.  All right, so we've got that.  So if this is let's say, and this isn't, you know, this isn't a terribly large amount of information about a person or about people to like maintain and upload.  And then there may be a lot of people, but like this is not a huge dataset.  So what would the repository for this look like?  Where would we keep it?  You know, what would it be?  Like, would it be -- I don't know, would it be files on GitHub, would it be a common database that we all upload to.
->> It might be interesting to I did.  Refine API on CSE.  It's already quite useful because then you can go through the data and say hey here's a person living in this state that might be a good candidate whoever you might have in your batch of data, so that might be something I'd do.
->> Hm, OK.
->> Any others?
->> I mean, do we need -- is this something that like we need someone to like set up and like pay for and run and administer, like --
->> I kind of think maybe, because you want that confidence that what's being uploaded is coming from a good source, and so if there's some way to say -- I don't know, that some sort of membership or some sort of way to -- if you want to look at where the sources of data are coming from, it's not something that -- someone who, you know, is just working on a school project uploads a bunch much dirty names, like some sort of way to --
->> But I feel like it's a really -- I feel like the likelihood that someone is either going to try to game the system or inadvertently upload not quality information is not -- like maybe not worth worrying about.  If it's a tradeoff toward having a frictionless system, having critical mass for this to be useful, the more that we need community type people around it, the less likely that's going to be to happen.
->> I think I could see just a couple of snare Joseph, this is my paranoia, you could have people who are concerned about privacy who don't like this idea, but they could contribute false information to throw it off.  And they that would be our source, and the other thing is this could end up being valuable for a lot of commercial services and so it could get co-opted.  We may be willing to contribute to other journalists and journalistic efforts but I don't necessarily want to contribute to a commercial entity who's trying to collect on debts.
->> That's a really good point.
->> Plus it would be expensive to maintain that and I think the thing that would be least resistance to maintain and probably most useful is if you had that really excellent sort of the domains list.  These are the domains that we have really excellent data for, and then you could throw yourself against those domains and you could parse that out sort of locally.
->> Oh, so you -- right, I mean I can see -- yeah, you can pull stuff down and run your local stuff against it, but then does the local stuff get back to, you know, -- that's -- because I feel like that's sort of what's happening now to a certain extent, to the extent it happens at all, is that we, you know we'll take a resource and use it for our specific project needs and then not put -- I mean I'm as guilty of this as anybody else.  I have a lot of standardized campaign records that have not been sort of shared widely.
->> I mean maybe it's that you get back like scores on each of these names or just like you know, a status on each of these names.  What you don't get is access to the full database, but most journalists are not going to be satisfied with that.
->> No you're going to have to have that transparency.  That's why I'm thinking a closed database, some sort of membership thing.  I think it would be a source that everyone would trust and a neutral place.
->> Is it to get to 100% or just to hit the max with it.  100% is that we have absolute confidence that every person in this dataset, we know who that person is and we could match he them up to prior and future.
->> Ooh.
->> But I mean is it so 100% is obviously too far but is it 99.99% we're shooting for or are we going tore everybody who's given over 20 bucks in their lifetime or whatever.
->> I think for journalists the goal can be find stories that are being told.  So 100% is not necessary so I think a system that reduces the effort that a journalist has to spend to identified needs to follow, believes that the latitude to verify any potential I consistencies with the system is where you would go.  But I think it would be impossible to sell publicly.  Remember the clamor when the gunnera database were published in New York.  As much as it would be nice to eliminate duplicate work.
->> Couldn't you have like a subscription thing where basically -- I know that Derek has like these cleaned up data feeds, these cleaned up methods, I subcribe to him, he has to approve my getting access to him and then we have a mutual kind of trust thing.
->> I mean that already exists, right, in commercial databases, you know that insurance companies have and whatnot, it's not that this information isn't out there already.  It's that the barrier to entry is really high.
->> Right, you could have that, I think.
->> First you have a bunch of people producing strong systems of their own that say I've -- I know who's who, and I know these three different representations are the same person, and then some sort of a semiprivate synch.
->> Does GPG help at all in this scenario.
->> Jo.
->> In the sense that I think the bigger issue here is not whether we trust each other, but whether like as a public effort, like it would be -- there would be some sort of backlash against it.  Judge but would it be public, though, if the only people who have access to it would be people who have keys.
->> Which would be essentially the subscription model.
->> Let's increase how people trust.
->> Look at Israel, I think the full census leaks and everybody has everybody's kind of details.
->> Yeah, but that's a small country.  It'sites also a decoy thing.
->> I'm actually interested in that topic if these sort of thing has been done in other countries, I think some of the Nordic like your Social Security number is public.  But whether journalists in those countries have used or tried to use those databases to solve these same sorts ever problems.
->> Here's the other thing, where are they going to get pissed off and how are they going to prove it right so the issues with things like plotting people's addresses who have gun licenses is the fact that somebody can just share a URL and everybody can go there.  So I me like there are ways to thinking nefariously tamp down on possible objections to these sorts of things, right?  And I think that, you know, having something like the subscription thing and anybody who's --
->> Command line interface.
->> Yes, makes it a lot easier to say, you know, can you actual search be if you stick your name in Google is your tax return the first result.  This is the problem the document cloud has people search their name and people say where did this document come from.  I think this is a search problem in that regard, as opposed to whether it's successful.
->> If I know all the players who are contributing, that makes me more likely as a journalist to feel good about using that information.
->> I think that's --
->> I guess part of the question is is it enough of a problem.
->> Like, is this enough of a pain in the ass?
->> What, the --
->> the problem of all of us us doing this siloed work of name cleaning year after year.
->> I think it's expensive.  We all have things that better journalism not necessarily journalism, but other journalism we'd all like to be doing rather than spending hundreds and hundreds of hours a year.
->> and I've been working with campaign finances and I'm fooling myself if I say, yeah, I'm an spirit in broadly geographic, I mean like I don't know who these people are.  I mean like I you know, I think it's very difficult for us to pretend that like it's the both the best use of our time and that we're really that good at it on a broad base.  I feel like you know, there is some precedent for developing something that helps us out broadly and maybe it's possible.
->> Maybe we could talk a little bit about just sort of how you hold onto your accumulated knowledge, like what would be a system that would allow you to basically keep track and sort of connect in new data into old data.  I so I mentioned at the night lab we're doing some stuff with campaign finance so there's a library actually Al knows about this, there's a library that some guys have made called D-dupe, which is a statistical tool to try to identify basically names that look different but should be the same.  And one of our -- we have a summer intern whose goal is produce something at the end for journalists a document that says here' how you use this for campaign financing.  But one of the questions then is if you get new data from the next stuff, how you link that back into what you've already done, so I guess -- we'll try to break this down into smaller pieces so that no one is too big so one would be a statistical method for identifying linking names, one might be a method for cleaning names so that they match preprecisely because they've been cleaned, rather than the other way around.  But the other is where do you put that.
->> One of the things that we do with campaign finance data is essentially we do have a sort of a master set of transactions that are then sort of augmented, that it's the base data that we get from the FEC, but then there are essentially standardizations or corrections or augmentations to it that make it easier, some of it is sort of a practical, like, denormalization kind of thing where I don't want to have to join tables on a 9-million-row database so I'm going to add a column and populate that.  But some of it is fixing no, is this a committee mismarked or whatever and there's the stupid old way that I learned which is that you make new columns.  You know, like name, clean name.  Or whatever you want to call it.  Like there's a -- again, that's like a -- that is a lot of, there's a certain -- there's a manual aspect that is not totally appealing.  On the other hand, I can very clearly see what has been done, and what the differences are between sort of the original and the improvements or changes in augmentations.  But I can also see essentially, there are probably other ways to layer that on top.
->> One thing I remember and it's really a question for the room is what tools are we using or what tools are we comfortable with.  Because making some system that's going to help all your problems if you only change completely and do it this way is not going to be maybe a win.  But I guess what would be the smallest possible thing that would work.
->> I don't think you warrant want the smallest thing that can possibly work.
->> You don't.
->> No, but identity is such a complex thing that basically it's mostly possibly work with a CSV with name, canonical name and done, and that sucks in so many levels that it's not funny.
->> Why?
->> First of all because names aren't -- I've done a lot of work on European lobbying data.  Then you want to where you've got this original stuff so you have provenance on all this kind of stuff and then you want to have information that's time sensitive, right, so and there's a rule that green parliamentarians coming in, the females they all get married after like one year.  I don't know why that is true, but it seems to be a rule, so you know that they've switched names and you can kind of therefore improve the accuracy of the guesses if you kind of know when they got married, right, so all this kind of stuff you want to catch because otherwise you just kind of produce a lot of weird overlap.
->> Here's the other thing that we do in certain -- like there's a project -- a group of us who use congressional legislative data in Washington have put on GitHub with the United States organization and there's a crosswalk that we built for every lawmaker, current lawmaker that crosswalks like 14 or 15 different ID systems for them.  It's a total pain in the ass to do for everybody, but on the other hand it's useful in the sense that it hooks you up to a wide variety of other systems, so it's the official canonical ID that Congress gives each member of Congress, but it's also the ID that C-span gives each member of Congress, because they have what amounts to a crappy API of their appearance on C-span or on the floor of the House or on the floor of the Senate or whatever.  And so this doesn't probably -- it's probably not the -- like as useful for donors, I mean most states don't don't assign like canonical IDs to donors.
->> Unless you're talking about PACs.
->> Unless you're talking about committees, right, and the committees they actually do that in a lot of places whether it's on a form or simply on their website they use a sequential ID or whatever ID you can pull out and say no, that's how this state or whatever authority refers to this thing.  I think that the least -- like, sort of public relations problematic thing we could do is -- that's still useful is to build crosswalks where they don't, is to essentially fill in crosswalks where they don't exist or to publish like here's how you know, like if you do a project like the center for investigative reporting did from California, and here's how they're known in our system, like in the California database and here's how they're known at the national institute for money in state politics and here's how they're known in the FEC.  Like already that's useful in the sense that they're the people we're probably likeliest to write about if we're writing about political donors in California, anyway, so simply if it was name, ID, ID.
->> Donors don't have identify fires in FEC, right?
->> Well, there could be that, but also in the FEC they don't, but like for instance, the National Institute of money in state politics which goes in and standardized, they generate IDs for people, and the center for responsive politics does generate IDs for individual donors, it's not obvious from their website that they do this, but they do do this, they're not always right, but I mean they're very, very good.  They don't make a lot of mistakes, because they've been doing this a long time and they employed an army of interns to help them.  But there is an ID.  There are systems out there that would probably help a little bit.
->> So I'm kind of thinking that a combination of something that is automated and also is manual, like I could upload a dataset, compare it against something else and then manually checkmark, like I have being looked at these two names and they're the same.  I could go back to ancestry.com in sort of how they're doing it is sort of an elegant way.  Like you can edit the data and it goes back.  So they're kind of using your knowledge to build the confidence in that, and if what we're building is, as a reporter in Allegheny County and maybe there's someone at other papers and we're all contributing and we keep checkmarking and saying this record and this record is the same person so we as a group can all feel confident in that so we're helping build that locally and then building it up in that sense.
->> the basic idea, this John ... suggested this in his class, how can you take multiple datasets, use something algorhythmic and update images when they're actually checked or whatever, right?  But you can do something like that for this, where you give a governance to as to like we know this person, actually probably knows who this is or whatever or some other way that you can track linkages, but that is a sort of system where you could account for some of this in.
->> There's one other thing I didn't mention at the outset.  I knew a large portion of this would steer back to campaign finance because me and there's a very common people dataset.  But there's a guy at Stanford who has built a classifier for 20 years of FEC data.  It's pretty good because I think it ignores suffixes, which is a bad problem in campaign finance, but like it is something that I feel like there must be other sets like that out there that various academics have worked with just either to test out their algorithms or to solve a domain-specific problem that there might be datasets as journalists that we're not paying attention to or we could get our hands on that could provide the foundation for things that we do, in other words, that could form like a, you know, like I said, a foundation for like hey, you know what?  This dataset isn't perfect, but this person has done a certain amount of work on it and I can actually take it from here and improve it to a certain extent.  Rather than compare it to the raw data it itself.  Where essentially I'm replicating 80 or 90 pers of what these researchers did and I feel like to some extent we're not always taking advantage of.  Put it this way, it's easy for me after 15 some years of, working with campaign finance 2 just to go back to the FEC and every Monday morning and grab the new data and run it through the system and I feel like maybe I should be looking around at what other people are doing, particularly with publicly available datasets, because in some case, even if their problems aren't the same problems as mine, like perhaps they have at least done things or developed techniques or tested out algorithms that have resulted in a pretty good useful usable basis.
->> I'm kind of drawing parallels to like this problem that just for a second not thinking about like the privacy or the security aspect, of do these people want their names online, but something like a Twitter verify check or something, where multiple people have uploaded the dataset like you said, someone went and manually said this is the same person and adding a time stamp of when this was last verified or something like that, does that make it more legit?
->> Like date, time, and who did it kind of thing and I work a lot with like OpenStreetMap, so there's like a record going back in time for like when a certain place is edited, so it's similarly to a name like if names change or people's addresses change or like it's a living, breathing kind of document.
->>
->> I can easily see why OpenStreetMap and Wikipedia and other places do that, because it's the easiest way to figure out what happened to it even if you are somewhat suspicious of it or skeptical of it, but that sort of thing implies that there is a -- that there is some sort of system that's built to handle that kind of input, whether it's behind a subscription or password or whatever or whether it's out in the open.  Which again, may be fine, but I do think there are some concerns that folks would raise, whether we would consider them to be like oh, that's totally legitimate or not.  You know, I think folks who have mentioned that there might be concerns about privacy and search availability, I think we have to acknowledge that, and kind of deal with it as best we can.  So we've been talking for wow, almost an hour and a half how.  Which is good.  I think we've had a really good discussion.  I'm curious to know sort of where people want to go from here to the extent that it doesn't involve leaving the room, because I know that's not only a possibility, but eventual the ultimate likelihood, but I am curious if what people what do you guys want to do at this point?  Are there things that we haven't discussed that are really sort of gripping people?  Are there things that we could do in the remaining time that we have that would actually leave us with something to show in addition to what we've already sort of talked about and put down?  Somebody mentioned at the outset, you know, even going through like some of these libraries and sort of describing them and be like, this is valuable, this is not as useful, like I don't know if it's a ranking system that we have a checklist, does that, doesn't do that.  Are people interested in that?
->> So I guess in that sense I probably should have put that stuff on a wiki rather than in a repository.
->> Can we add a new event page?
->> Well, what we should do is we should check to we should add an etherpad page or we could start the wiki on the repo and go from there, but we should also figure out if we're going to do that, what we're going to add, like you know, free text is great, but I think we should probably have some common basis for how we're going to describe these tools. ... ... :
+
+> Same thing with like restaurant reviews, for price of restaurants, one dollar sign, four dollar signs, something like that?  Are there any other licensing or voter registration databases that have information that is not in here that we might consider to be part of a nice to have set?
+
+> I'm sorry, I joined the session late, but I'm trying to think about a way of what combination of these attributes make a unique person.  Like could with a Derek Willis from the same city, same state.
+
+> How do we disambiguate, yeah.  Yeah.
+
+> What are the minimum kind of requirements?  Like place of birth, I don't know does that help spell someone's name better or like pronunciation?
+
+> I mean I think that there's no formal way to do that absent the data managers doing it responsibly, because everything up there can legitimately change.
+
+> and does.
+
+> and does from either sloppy data handling or life events, and so I came in late, too, so I'm not exactly sure what this is driving towards, but in general working on problems of matching people between datasets, you have to basically fill in the uncertainty and make that a thing that you always have an opportunity to check yourself before you make a mistake if the uncertainty comes into play.  You know, we're doing some things at the night lab with campaign financing and find out that one thing we do is mostly disregard even checking low number donors, because you know what they're just not important, right?  So these methods that say reduce what you are worried about being correct is a strategy.  Can you say in like two sentences where you guys are driving since I came in late.
+
+> We've been a little running on and off the road a little bit but a couple things, one is sort of -- we're kind of on two tracks.  One is, the tools that we have for parsing and standardizing names, how can we improve them, is there room for that for you know, do they need to be, are there obvious improvements that we could make, or you know, even just I think somebody suggested can we evaluate them in terms of so people know what tools are right and good or useful and what they offer versus like, you know, so we can properly answer the question, I have to parse name fields, what should I use.  So that's one sort of track.  The other track is how do we stop doing the same work over and over, like both individually and collectively, and can we create, or you know, imagine some sort of either service or common repository that helps us to stop, you know, doing things repetitively and perhaps mistakenly.  You know, part of one of the founding questions of the session for me was like this perennial campaign financing question which is we can never really say with any real certainty exactly how much money somebody has given because we're never really sure, and so I don't know that we can ever really perfectly solve that, but like I'd like to be able to get closer, it's just that every time that we try to answer those questions, it's usually dealing with someone who on the off chance I've ever heard of them before I'm only tangentially aware of them and now I have to become an expert of every name they've used and their employment history in like four hours right, or a day.  Or can we build on stuff that maybe all of us do and maybe extract a portion of the work that all of us do, and be able to contribute it to some sort of common thing that we can all draw upon.  And be like look, I'm not the expert in western Pennsylvania political donors, but someone else is and they've uploaded a data that sort of standardizes and identifies the data from that community.
+
+> So how do you verify like right now, you get the Allegheny County stuff, like every time you get political donations from Allegheny County, you go through them and do the exact same matching every time or how do you --
+
+> So we're kind of working through how to do this in an automated fashion.  Because it is very manual right now.  I have taken campaign finance reports and enter them into a spreadsheet that I then go through open refine.  And I go through it again OK, I know these people I'm cleaning it up that way.  We want it to just keep building on itself.  We're going to say campaign finance data was one of our foundational sets, we're always going to run names against that to see if we've already built up their profile and that's part of why I was really excited about this session which is the exact thing.
+
+> Unfortunately since we don't have it solved it's kind of a let-down for her, but you know, I feel like, yeah, you know, I feel like there are a bunch of -- several different ways we could go with this, right?  So all right, any more on sort of -- any other fields that -- any other types of information that people are collecting that might be useful or is this a good.
+
+> I think the last thing I would put in there is if you're talk talking about campaign finance would be registered party that they are registered as or if you donate to Democrats all I don't remember life.
+
+> I mean there's two ways to get at that, like if some states offer it, like is a registered whatever, although that can change over time, obviously and then the states that don't offer it, you could kind of divide it based on donation history, which is again, not terribly different.  All right, so we've got that.  So if this is let's say, and this isn't, you know, this isn't a terribly large amount of information about a person or about people to like maintain and upload.  And then there may be a lot of people, but like this is not a huge dataset.  So what would the repository for this look like?  Where would we keep it?  You know, what would it be?  Like, would it be -- I don't know, would it be files on GitHub, would it be a common database that we all upload to.
+
+> It might be interesting to I did.  Refine API on CSE.  It's already quite useful because then you can go through the data and say hey here's a person living in this state that might be a good candidate whoever you might have in your batch of data, so that might be something I'd do.
+
+> Hm, OK.
+
+> Any others?
+
+> I mean, do we need -- is this something that like we need someone to like set up and like pay for and run and administer, like --
+
+> I kind of think maybe, because you want that confidence that what's being uploaded is coming from a good source, and so if there's some way to say -- I don't know, that some sort of membership or some sort of way to -- if you want to look at where the sources of data are coming from, it's not something that -- someone who, you know, is just working on a school project uploads a bunch much dirty names, like some sort of way to --
+
+> But I feel like it's a really -- I feel like the likelihood that someone is either going to try to game the system or inadvertently upload not quality information is not -- like maybe not worth worrying about.  If it's a tradeoff toward having a frictionless system, having critical mass for this to be useful, the more that we need community type people around it, the less likely that's going to be to happen.
+
+> I think I could see just a couple of snare Joseph, this is my paranoia, you could have people who are concerned about privacy who don't like this idea, but they could contribute false information to throw it off.  And they that would be our source, and the other thing is this could end up being valuable for a lot of commercial services and so it could get co-opted.  We may be willing to contribute to other journalists and journalistic efforts but I don't necessarily want to contribute to a commercial entity who's trying to collect on debts.
+
+> That's a really good point.
+
+> Plus it would be expensive to maintain that and I think the thing that would be least resistance to maintain and probably most useful is if you had that really excellent sort of the domains list.  These are the domains that we have really excellent data for, and then you could throw yourself against those domains and you could parse that out sort of locally.
+
+> Oh, so you -- right, I mean I can see -- yeah, you can pull stuff down and run your local stuff against it, but then does the local stuff get back to, you know, -- that's -- because I feel like that's sort of what's happening now to a certain extent, to the extent it happens at all, is that we, you know we'll take a resource and use it for our specific project needs and then not put -- I mean I'm as guilty of this as anybody else.  I have a lot of standardized campaign records that have not been sort of shared widely.
+
+> I mean maybe it's that you get back like scores on each of these names or just like you know, a status on each of these names.  What you don't get is access to the full database, but most journalists are not going to be satisfied with that.
+
+> No you're going to have to have that transparency.  That's why I'm thinking a closed database, some sort of membership thing.  I think it would be a source that everyone would trust and a neutral place.
+
+> Is it to get to 100% or just to hit the max with it.  100% is that we have absolute confidence that every person in this dataset, we know who that person is and we could match he them up to prior and future.
+
+> Ooh.
+
+> But I mean is it so 100% is obviously too far but is it 99.99% we're shooting for or are we going tore everybody who's given over 20 bucks in their lifetime or whatever.
+
+> I think for journalists the goal can be find stories that are being told.  So 100% is not necessary so I think a system that reduces the effort that a journalist has to spend to identified needs to follow, believes that the latitude to verify any potential I consistencies with the system is where you would go.  But I think it would be impossible to sell publicly.  Remember the clamor when the gunnera database were published in New York.  As much as it would be nice to eliminate duplicate work.
+
+> Couldn't you have like a subscription thing where basically -- I know that Derek has like these cleaned up data feeds, these cleaned up methods, I subcribe to him, he has to approve my getting access to him and then we have a mutual kind of trust thing.
+
+> I mean that already exists, right, in commercial databases, you know that insurance companies have and whatnot, it's not that this information isn't out there already.  It's that the barrier to entry is really high.
+
+> Right, you could have that, I think.
+
+> First you have a bunch of people producing strong systems of their own that say I've -- I know who's who, and I know these three different representations are the same person, and then some sort of a semiprivate synch.
+
+> Does GPG help at all in this scenario.
+
+> Jo.
+
+> In the sense that I think the bigger issue here is not whether we trust each other, but whether like as a public effort, like it would be -- there would be some sort of backlash against it.  Judge but would it be public, though, if the only people who have access to it would be people who have keys.
+
+> Which would be essentially the subscription model.
+
+> Let's increase how people trust.
+
+> Look at Israel, I think the full census leaks and everybody has everybody's kind of details.
+
+> Yeah, but that's a small country.  It'sites also a decoy thing.
+
+> I'm actually interested in that topic if these sort of thing has been done in other countries, I think some of the Nordic like your Social Security number is public.  But whether journalists in those countries have used or tried to use those databases to solve these same sorts ever problems.
+
+> Here's the other thing, where are they going to get pissed off and how are they going to prove it right so the issues with things like plotting people's addresses who have gun licenses is the fact that somebody can just share a URL and everybody can go there.  So I me like there are ways to thinking nefariously tamp down on possible objections to these sorts of things, right?  And I think that, you know, having something like the subscription thing and anybody who's --
+
+> Command line interface.
+
+> Yes, makes it a lot easier to say, you know, can you actual search be if you stick your name in Google is your tax return the first result.  This is the problem the document cloud has people search their name and people say where did this document come from.  I think this is a search problem in that regard, as opposed to whether it's successful.
+
+> If I know all the players who are contributing, that makes me more likely as a journalist to feel good about using that information.
+
+> I think that's --
+
+> I guess part of the question is is it enough of a problem.
+
+> Like, is this enough of a pain in the ass?
+
+> What, the --
+
+> the problem of all of us us doing this siloed work of name cleaning year after year.
+
+> I think it's expensive.  We all have things that better journalism not necessarily journalism, but other journalism we'd all like to be doing rather than spending hundreds and hundreds of hours a year.
+
+> and I've been working with campaign finances and I'm fooling myself if I say, yeah, I'm an spirit in broadly geographic, I mean like I don't know who these people are.  I mean like I you know, I think it's very difficult for us to pretend that like it's the both the best use of our time and that we're really that good at it on a broad base.  I feel like you know, there is some precedent for developing something that helps us out broadly and maybe it's possible.
+
+> Maybe we could talk a little bit about just sort of how you hold onto your accumulated knowledge, like what would be a system that would allow you to basically keep track and sort of connect in new data into old data.  I so I mentioned at the knight lab we're doing some stuff with campaign finance so there's a library actually Al knows about this, there's a library that some guys have made called dedupe, which is a statistical tool to try to identify basically names that look different but should be the same.  And one of our -- we have a summer intern whose goal is produce something at the end for journalists a document that says here' how you use this for campaign financing.  But one of the questions then is if you get new data from the next stuff, how you link that back into what you've already done, so I guess -- we'll try to break this down into smaller pieces so that no one is too big so one would be a statistical method for identifying linking names, one might be a method for cleaning names so that they match preprecisely because they've been cleaned, rather than the other way around.  But the other is where do you put that.
+
+> One of the things that we do with campaign finance data is essentially we do have a sort of a master set of transactions that are then sort of augmented, that it's the base data that we get from the FEC, but then there are essentially standardizations or corrections or augmentations to it that make it easier, some of it is sort of a practical, like, denormalization kind of thing where I don't want to have to join tables on a 9-million-row database so I'm going to add a column and populate that.  But some of it is fixing no, is this a committee mismarked or whatever and there's the stupid old way that I learned which is that you make new columns.  You know, like name, clean name.  Or whatever you want to call it.  Like there's a -- again, that's like a -- that is a lot of, there's a certain -- there's a manual aspect that is not totally appealing.  On the other hand, I can very clearly see what has been done, and what the differences are between sort of the original and the improvements or changes in augmentations.  But I can also see essentially, there are probably other ways to layer that on top.
+
+> One thing I remember and it's really a question for the room is what tools are we using or what tools are we comfortable with.  Because making some system that's going to help all your problems if you only change completely and do it this way is not going to be maybe a win.  But I guess what would be the smallest possible thing that would work.
+
+> I don't think you warrant want the smallest thing that can possibly work.
+
+> You don't.
+
+> No, but identity is such a complex thing that basically it's mostly possibly work with a CSV with name, canonical name and done, and that sucks in so many levels that it's not funny.
+
+> Why?
+
+> First of all because names aren't -- I've done a lot of work on European lobbying data.  Then you want to where you've got this original stuff so you have provenance on all this kind of stuff and then you want to have information that's time sensitive, right, so and there's a rule that green parliamentarians coming in, the females they all get married after like one year.  I don't know why that is true, but it seems to be a rule, so you know that they've switched names and you can kind of therefore improve the accuracy of the guesses if you kind of know when they got married, right, so all this kind of stuff you want to catch because otherwise you just kind of produce a lot of weird overlap.
+
+> Here's the other thing that we do in certain -- like there's a project -- a group of us who use congressional legislative data in Washington have put on GitHub with the United States organization and there's a crosswalk that we built for every lawmaker, current lawmaker that crosswalks like 14 or 15 different ID systems for them.  It's a total pain in the ass to do for everybody, but on the other hand it's useful in the sense that it hooks you up to a wide variety of other systems, so it's the official canonical ID that Congress gives each member of Congress, but it's also the ID that C-span gives each member of Congress, because they have what amounts to a crappy API of their appearance on C-span or on the floor of the House or on the floor of the Senate or whatever.  And so this doesn't probably -- it's probably not the -- like as useful for donors, I mean most states don't don't assign like canonical IDs to donors.
+
+> Unless you're talking about PACs.
+
+> Unless you're talking about committees, right, and the committees they actually do that in a lot of places whether it's on a form or simply on their website they use a sequential ID or whatever ID you can pull out and say no, that's how this state or whatever authority refers to this thing.  I think that the least -- like, sort of public relations problematic thing we could do is -- that's still useful is to build crosswalks where they don't, is to essentially fill in crosswalks where they don't exist or to publish like here's how you know, like if you do a project like the center for investigative reporting did from California, and here's how they're known in our system, like in the California database and here's how they're known at the national institute for money in state politics and here's how they're known in the FEC.  Like already that's useful in the sense that they're the people we're probably likeliest to write about if we're writing about political donors in California, anyway, so simply if it was name, ID, ID.
+
+> Donors don't have identify fires in FEC, right?
+
+> Well, there could be that, but also in the FEC they don't, but like for instance, the National Institute of money in state politics which goes in and standardized, they generate IDs for people, and the center for responsive politics does generate IDs for individual donors, it's not obvious from their website that they do this, but they do do this, they're not always right, but I mean they're very, very good.  They don't make a lot of mistakes, because they've been doing this a long time and they employed an army of interns to help them.  But there is an ID.  There are systems out there that would probably help a little bit.
+
+> So I'm kind of thinking that a combination of something that is automated and also is manual, like I could upload a dataset, compare it against something else and then manually checkmark, like I have being looked at these two names and they're the same.  I could go back to ancestry.com in sort of how they're doing it is sort of an elegant way.  Like you can edit the data and it goes back.  So they're kind of using your knowledge to build the confidence in that, and if what we're building is, as a reporter in Allegheny County and maybe there's someone at other papers and we're all contributing and we keep checkmarking and saying this record and this record is the same person so we as a group can all feel confident in that so we're helping build that locally and then building it up in that sense.
+
+> the basic idea, this John ... suggested this in his class, how can you take multiple datasets, use something algorhythmic and update images when they're actually checked or whatever, right?  But you can do something like that for this, where you give a governance to as to like we know this person, actually probably knows who this is or whatever or some other way that you can track linkages, but that is a sort of system where you could account for some of this in.
+
+> There's one other thing I didn't mention at the outset.  I knew a large portion of this would steer back to campaign finance because me and there's a very common people dataset.  But there's a guy at Stanford who has built a classifier for 20 years of FEC data.  It's pretty good because I think it ignores suffixes, which is a bad problem in campaign finance, but like it is something that I feel like there must be other sets like that out there that various academics have worked with just either to test out their algorithms or to solve a domain-specific problem that there might be datasets as journalists that we're not paying attention to or we could get our hands on that could provide the foundation for things that we do, in other words, that could form like a, you know, like I said, a foundation for like hey, you know what?  This dataset isn't perfect, but this person has done a certain amount of work on it and I can actually take it from here and improve it to a certain extent.  Rather than compare it to the raw data it itself.  Where essentially I'm replicating 80 or 90 pers of what these researchers did and I feel like to some extent we're not always taking advantage of.  Put it this way, it's easy for me after 15 some years of, working with campaign finance 2 just to go back to the FEC and every Monday morning and grab the new data and run it through the system and I feel like maybe I should be looking around at what other people are doing, particularly with publicly available datasets, because in some case, even if their problems aren't the same problems as mine, like perhaps they have at least done things or developed techniques or tested out algorithms that have resulted in a pretty good useful usable basis.
+
+> I'm kind of drawing parallels to like this problem that just for a second not thinking about like the privacy or the security aspect, of do these people want their names online, but something like a Twitter verify check or something, where multiple people have uploaded the dataset like you said, someone went and manually said this is the same person and adding a time stamp of when this was last verified or something like that, does that make it more legit?
+
+> Like date, time, and who did it kind of thing and I work a lot with like OpenStreetMap, so there's like a record going back in time for like when a certain place is edited, so it's similarly to a name like if names change or people's addresses change or like it's a living, breathing kind of document.
+
+> I can easily see why OpenStreetMap and Wikipedia and other places do that, because it's the easiest way to figure out what happened to it even if you are somewhat suspicious of it or skeptical of it, but that sort of thing implies that there is a -- that there is some sort of system that's built to handle that kind of input, whether it's behind a subscription or password or whatever or whether it's out in the open.  Which again, may be fine, but I do think there are some concerns that folks would raise, whether we would consider them to be like oh, that's totally legitimate or not.  You know, I think folks who have mentioned that there might be concerns about privacy and search availability, I think we have to acknowledge that, and kind of deal with it as best we can.  So we've been talking for wow, almost an hour and a half how.  Which is good.  I think we've had a really good discussion.  I'm curious to know sort of where people want to go from here to the extent that it doesn't involve leaving the room, because I know that's not only a possibility, but eventual the ultimate likelihood, but I am curious if what people what do you guys want to do at this point?  Are there things that we haven't discussed that are really sort of gripping people?  Are there things that we could do in the remaining time that we have that would actually leave us with something to show in addition to what we've already sort of talked about and put down?  Somebody mentioned at the outset, you know, even going through like some of these libraries and sort of describing them and be like, this is valuable, this is not as useful, like I don't know if it's a ranking system that we have a checklist, does that, doesn't do that.  Are people interested in that?
+
+> So I guess in that sense I probably should have put that stuff on a wiki rather than in a repository.
+
+> Can we add a new event page?
+
+> Well, what we should do is we should check to we should add an etherpad page or we could start the wiki on the repo and go from there, but we should also figure out if we're going to do that, what we're going to add, like you know, free text is great, but I think we should probably have some common basis for how we're going to describe these tools. ... ... :
 [group activity]
  
