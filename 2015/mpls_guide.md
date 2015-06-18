@@ -1,5 +1,5 @@
 # THE SRCCON 2015 GUIDE TO THE TWIN CITIES
-Courtesy of [Jeff Guntzel](https://twitter.com/jsguntzel)
+Courtesy of [Jeff Guntzel](https://twitter.com/jsguntzel) with excellent additions from [MaryJo Webster](https://twitter.com/maryjowebster), [Matt DeLong](https://twitter.com/mattdelong), and [Justin Heideman](https://twitter.com/justinph)
 
 # How to get around
 There are two train lines in the Twin Cities. One runs through Minneapolis and the other runs from Minneapolis to St. Paul. Mercifully, they are connected. The MetroTransit trip planner (<a href='https://www.metrotransit.org/imap/map.aspx'>https://www.metrotransit.org/imap/map.aspx</a>) is a reliable way to determine if your destination is near a train stop. Many of the places listed here are.
@@ -59,6 +59,13 @@ Surly makes really good beer right here in Minnesota. Really good.
 
 ### Beyond the campus
 
+##### Foxy Falafel
+[http://foxyfalafel.com/](http://foxyfalafel.com/)<br />
+1.8 miles<br />
+791 Raymond Ave, St. Paul
+
+Just off the Raymond Avenue stop on the Green Line (3 stops east of Stadium Village). Excellent falafel and shwarma. Lots of vegan, vegetarian and organic options. Great gluten-free cookies. Serves alcohol.
+
 ##### Brasa Premium Rotisserie
 <a href='http://www.brasa.us'>http://www.brasa.us</a><br />
 1.9 miles<br />
@@ -79,6 +86,15 @@ The Somali Steak Sandwich! The Somali Steak Sandwich! The Somali Steak Sandwich!
 303 East hennepin Avenue<br />
 
 Select a picnic place (Gold Medal Park? The Walker Art Center Sculpture Garden?) and head to Surdyk's to pick up cheese, crackers, sandwiches, fancy fizzy drinks, and desserts. You'll never forget Minneapolis.
+
+##### Urban Growler Brewing Co.
+[http://www.urbangrowlerbrewing.com](http://www.urbangrowlerbrewing.com)<br />
+2.4 miles<br />
+2325 Endicott Street, St. Paul
+
+This is a 10-15 minute walk from the Raymond Avenue stop (3 stops east of Stadium Village). It’s a little off the beaten path and surrounded by warehouses but worth a visit.
+ 
+A woman-owned and operated craft brewery that makes damn good beer and features a small but strong food menu. Two taprooms and a nice patio.
 
 ##### Punch Neapolitan Pizza
 <a href='http://www.punchpizza.com'>http://www.punchpizza.com</a><br />
@@ -110,7 +126,7 @@ Beers brewed on site. Picnic tables, live music, and food trucks. A delightful s
 
 ##### Bauhaus Brew Labs
 <a href="http://bauhausbrewlabs.com/">http://bauhausbrewlabs.com/</a><br />
-2.7miles<br />
+2.7 miles<br />
 1315 Tyler Street Northeast<br />
  
 There are [many breweries](http://mnbeer.com/breweries/) in Minneapolis, but this one is perhaps the most picturesuqe. Great german-inspired beer, outdoor games, music, and usually have food trucks.
@@ -199,6 +215,21 @@ You know that giant spoon with a giant cherry in it that appears on postcards an
 3675 Arboretum Drive, Chaska, MN<br />
 
 If you need a quiet place for a stroll, or just want to sit and think while surrounded by pretty growy things, you might think about the arboretum. It's a rental car thing for sure. There is a pretty insane LEGO exhibit there now. And then there is a Prince perk: To get there you have to drive by the compound he calls Paisely Park (which is also where he holds his occasional 2am concerts). If we're being honest, it is not aging well. But Prince!
+
+##### Mississippi River via Padelford Riverboats
+[http://www.riverrides.com/](http://www.riverrides.com/)<br />
+Dr Justus Ohage Blvd, St Paul<br />
+9.7 miles
+
+A river boat ride on the Mississippi between Minneapolis and St. Paul.
+ 
+##### Lake Calhoun
+[http://www.wheelfunrentals.com/Locations/Minneapolis](http://www.wheelfunrentals.com/Locations/Minneapolis)<br />
+3000 E. Calhoun Pkwy<br />
+5.7 miles
+
+You can rent bikes, pedal boats, kayaks, canoes, and paddleboards for lake-splashing enjoyment.
+
 
 ## Books!
 These bookstores are vetted. There are plenty more that could (and maybe should) be on the list, but you can't go wrong with any of these (unless, of course, if you hate science fiction and decide to truck it out to Uncle Hugo's). Two things worth noting: Common Good Books is Garrison Keilor's bookstore (Wait! Come back!) and Wild Rumpus is a bookstore for kids that has LIVE ANIMALS running around. And we're not just talking about  bookstore cats. There are chickens!
@@ -316,6 +347,14 @@ You can find the multiplexes easy enough. These are the special theaters. Oh, an
 0.4 miles<br />
 10 Church Street Southeast
 
+##### Mill City Museum 
+[http://www.millcitymuseum.org/](http://www.millcitymuseum.org/)<br />
+1.9 miles<br />
+704 S 2nd St.
+
+Does a really great job of telling some of the key history of Minnesota—the flour industry. Plus you can get a great view of the city, St. Anthony Falls ,and the Mississippi River from the top of the museum. Also great for children!
+
+
 ## Live Music!
 
 ##### Cedar Cultural Center
@@ -348,10 +387,62 @@ You can find the multiplexes easy enough. These are the special theaters. Oh, an
 4.9 miles<br />
 1571 Grand Avenue
 
+
 ##### Icehouse
 <a href='http://www.icehousempls.com'>http://www.icehousempls.com</a><br />
 4.3 miles<br />
 2528 Nicollet Avenue South
+
+## Festivals and Events
+
+##### Twin Cities Jazz Festival
+[http://www.hotsummerjazz.com/](http://www.hotsummerjazz.com/)
+ 
+##### Twin Cities Pride Festival and Parade
+[https://www.tcpride.org/](https://www.tcpride.org/)
+
+## Fun for Kids
+
+##### Minnesota Children’s Museum
+[http://www.mcm.org/](http://www.mcm.org/)<br />
+7.5 miles<br />
+10 7th St. W., St. Paul
+
+Essential, especially toddler through about age eight.
+ 
+##### Como Zoo 
+[http://www.comozooconservatory.org/](http://www.comozooconservatory.org/)<br />
+5.9 miles<br />
+1225 Estabrook Drive, St Paul
+
+Small, but really nice, zoo;  a conservatory; a really cool historical carousel (to ride!); and an amusement park called Como Town that has rides and a splash pad. The rides are geared toward younger kids (toddler through middle school). Como Town and the carousel cost money, but the zoo is free (they ask for donations, however).
+ 
+##### The Works Museum
+[https://www.theworks.org/](https://www.theworks.org/)<br />
+14 miles<br />
+9740 Grand Ave S., Bloomington
+ 
+##### Mississippi National River and Recreation Area
+[http://www.nps.gov/miss/planyourvisit/things2do.htm](http://www.nps.gov/miss/planyourvisit/things2do.htm)<br />
+16.8 miles
+ 
+##### The Raptor Center on the St. Paul University of Minnesota campus 
+[http://www.raptor.cvm.umn.edu/](http://www.raptor.cvm.umn.edu/)<br />
+4.5 miles<br />
+1920 Fitch Avenue, St. Paul
+ 
+#####  Tamarack Nature Center 
+[https://parks.co.ramsey.mn.us/tamarack/Pages/tamarack.aspx](https://parks.co.ramsey.mn.us/tamarack/Pages/tamarack.aspx)<br />
+20 miles<br />
+5287 Otter Lake Rd, White Bear Township
+
+
+## More Lists
+
+##### City Pages, “Best of…” lists for 2015
+[http://www.citypages.com/best-of](http://www.citypages.com/best-of)
+
+This covers a lot of other ground, especially in food and entertainment.
 
 ## Just because...
 
@@ -384,7 +475,6 @@ Exactly what it says. And no windmills allowed. (For weather-related and course 
 29836 Saint Croix Trail, Shafer, MN<br />
 
 There is a house suspended from wires, a sculpture made of boom boxes that reaches towards the heavens... Many of the sculptures are welded, formed, and banged together on site. It's sprawling and it's amazing.
-
 
 ##### Duluth (Lake Superior)
 150 miles<br />
