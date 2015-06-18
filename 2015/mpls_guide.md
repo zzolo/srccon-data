@@ -106,6 +106,14 @@ A bazillian beers (er, 28) on tap + great food.
 
 Beers brewed on site. Picnic tables, live music, and food trucks. A delightful spot.
 
+#### Bauhaus Brew Labs
+<a href="http://bauhausbrewlabs.com/">http://bauhausbrewlabs.com/</a><br />
+2.7miles<br />
+1315 Tyler Street Northeast<br />
+ 
+Perhaps the most picturesuqe brewery in Minneapolis. Great german-inspired beer, outdoor games, music, and usually have food trucks.
+
+
 ##### Peace Coffee
 <a href='http://www.peacecoffee.com/locations/wonderland-park'>http://www.peacecoffee.com/locations/wonderland-park</a><br />
 2.8 miles<br />
