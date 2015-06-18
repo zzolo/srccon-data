@@ -106,7 +106,7 @@ A bazillian beers (er, 28) on tap + great food.
 
 Beers brewed on site. Picnic tables, live music, and food trucks. A delightful spot.
 
-#### Bauhaus Brew Labs
+##### Bauhaus Brew Labs
 <a href="http://bauhausbrewlabs.com/">http://bauhausbrewlabs.com/</a><br />
 2.7miles<br />
 1315 Tyler Street Northeast<br />
