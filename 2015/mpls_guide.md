@@ -4,7 +4,7 @@ Courtesy of [Jeff Guntzel](https://twitter.com/jsguntzel)
 # How to get around
 There are two train lines in the Twin Cities. One runs through Minneapolis and the other runs from Minneapolis to St. Paul. Mercifully, they are connected. The MetroTransit trip planner (<a href='https://www.metrotransit.org/imap/map.aspx'>https://www.metrotransit.org/imap/map.aspx</a>) is a reliable way to determine if your destination is near a train stop. Many of the places listed here are.
 
-There is also a bike sharing system called [Nice Ride](https://www.niceridemn.org/) that has over 100 stations throughout the core cities of Minneapolis and St. Paul and usually pretty close to the attractions listed below, including right behind the McNamara Center. Passes are $6 for 24 hours or $15 for a month, you get bikes for 60 minutes at a time fore additional fees accrue.
+There is also a bike sharing system called [Nice Ride](https://www.niceridemn.org/) that has over 100 stations throughout the core cities of Minneapolis and St. Paul. Stations are usually pretty close to many of the attractions listed below, including right behind the McNamara Center. Passes are $6 for 24 hours or $15 for a month, you get bikes for 60 minutes at a time before additional fees accrue.
 
 # Places
 ## Delicious places
@@ -114,7 +114,6 @@ Beers brewed on site. Picnic tables, live music, and food trucks. A delightful s
 1315 Tyler Street Northeast<br />
  
 Perhaps the most picturesuqe brewery in Minneapolis. Great german-inspired beer, outdoor games, music, and usually have food trucks.
-
 
 ##### Peace Coffee
 <a href='http://www.peacecoffee.com/locations/wonderland-park'>http://www.peacecoffee.com/locations/wonderland-park</a><br />
