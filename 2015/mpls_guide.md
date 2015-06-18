@@ -1,10 +1,12 @@
 # THE SRCCON 2015 GUIDE TO THE TWIN CITIES
-Courtesy of [Jeff Guntzel](https://twitter.com/jsguntzel) with excellent additions from [MaryJo Webster](https://twitter.com/maryjowebster), [Matt DeLong](https://twitter.com/mattdelong), and [Justin Heideman](https://twitter.com/justinph)
+Courtesy of [Jeff Guntzel](https://twitter.com/jsguntzel) with excellent additions from [MaryJo Webster](https://twitter.com/maryjowebster), [Matt DeLong](https://twitter.com/mattdelong), [Justin Heideman](https://twitter.com/justinph), and [Alan Palazzolo](https://twitter.com/zzolo).
 
 # How to get around
-There are two train lines in the Twin Cities. One runs through Minneapolis and the other runs from Minneapolis to St. Paul. Mercifully, they are connected. The MetroTransit trip planner (<a href='https://www.metrotransit.org/imap/map.aspx'>https://www.metrotransit.org/imap/map.aspx</a>) is a reliable way to determine if your destination is near a train stop. Many of the places listed here are.
+There are two train lines in the Twin Cities. One runs through Minneapolis and the other runs from Minneapolis to St. Paul. Mercifully, they are connected. The MetroTransit trip planner (<a href='https://www.metrotransit.org/imap/map.aspx'>https://www.metrotransit.org/imap/map.aspx</a>) is a reliable way to determine if your destination is near a train stop. Many of the places listed here are.  The bus and trains are generally on time in the Twin Cities and Google Maps will give you a pretty good route and time to get places.
 
 There is also a bike sharing system called [Nice Ride](https://www.niceridemn.org/) that has over 100 stations throughout the core cities of Minneapolis and St. Paul. Stations are usually pretty close to many of the attractions listed below, including right behind the McNamara Center. Passes are $6 for 24 hours or $15 for a month, you get bikes for 60 minutes at a time before additional fees accrue.
+
+Car2Go operates in the Twin Cities, so if you have an account, just grab one and go.
 
 # Places
 ## Delicious places
@@ -79,6 +81,20 @@ Lip smacking, finger dripping Southern cooking.
 1939 5th St S<br />
 
 The Somali Steak Sandwich! The Somali Steak Sandwich! The Somali Steak Sandwich!
+
+##### Seward Cafe
+[sewardcafe.com](http://www.sewardcafe.com/)<br />
+1.7 miles<br />
+2129 E Franklin Ave, Minneapolis, MN 55404<br />
+
+Great vegan breakfast (served all day) co-op.
+
+##### Hard Times Cafe
+[wikipedia.org/wiki/Hard_Times_Cafe](https://en.wikipedia.org/wiki/Hard_Times_Cafe)<br />
+0.9 miles<br />
+1821 Riverside Ave, Minneapolis, MN 55454<br />
+
+"It is known for its punk and hippie ideology, its gritty ambiance, and its large selection of vegan and vegetarian food. It is open 22 hours a day, closing only between the hours of 4 am and 6 am."
 
 ##### Surdyk's Liquor & Cheese Shop
 <a href='http://surdyks.com'>http://surdyks.com</a><br />
@@ -232,7 +248,7 @@ You can rent bikes, pedal boats, kayaks, canoes, and paddleboards for lake-splas
 
 
 ## Books!
-These bookstores are vetted. There are plenty more that could (and maybe should) be on the list, but you can't go wrong with any of these (unless, of course, if you hate science fiction and decide to truck it out to Uncle Hugo's). Two things worth noting: Common Good Books is Garrison Keilor's bookstore (Wait! Come back!) and Wild Rumpus is a bookstore for kids that has LIVE ANIMALS running around. And we're not just talking about  bookstore cats. There are chickens!
+These bookstores are vetted. There are plenty more that could (and maybe should) be on the list, but you can't go wrong with any of these (unless, of course, if you hate science fiction and decide to truck it out to Uncle Hugo's). Two things worth noting: Common Good Books is Garrison Keilor's bookstore (Wait! Come back!) and Wild Rumpus is a bookstore for kids that has LIVE ANIMALS running around. And we're not just talking about bookstore cats. There are chickens!  Boneshaker books is a worker-owned bookstore with lots of great titles you won't find anywhere else.
 
 ##### The Book House
 <a href='http://www.bookhouseindinkytown.com'>http://www.bookhouseindinkytown.com</a><br />
@@ -263,6 +279,11 @@ These bookstores are vetted. There are plenty more that could (and maybe should)
 <a href='http://www.commongoodbooks.com'>http://www.commongoodbooks.com</a><br />
 4.9 miles<br />
 38 Snelling Avenue South
+
+##### Boneshaker Books
+[boneshakerbooks.com](http://www.boneshakerbooks.com/)<br />
+1.5 miles<br />
+2002 23rd Ave S, Minneapolis, MN 55404
 
 ##### Dreamhaven Books & Comics
 <a href='http://dreamhavenbooks.com'>http://dreamhavenbooks.com</a><br />
