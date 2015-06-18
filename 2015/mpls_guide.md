@@ -113,7 +113,7 @@ Beers brewed on site. Picnic tables, live music, and food trucks. A delightful s
 2.7miles<br />
 1315 Tyler Street Northeast<br />
  
-Perhaps the most picturesuqe brewery in Minneapolis. Great german-inspired beer, outdoor games, music, and usually have food trucks.
+There are [many breweries](http://mnbeer.com/breweries/) in Minneapolis, but this one is perhaps the most picturesuqe. Great german-inspired beer, outdoor games, music, and usually have food trucks.
 
 ##### Peace Coffee
 <a href='http://www.peacecoffee.com/locations/wonderland-park'>http://www.peacecoffee.com/locations/wonderland-park</a><br />
